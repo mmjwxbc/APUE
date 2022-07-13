@@ -1,0 +1,3 @@
+CFLAGS+=-D_FILE_OFFSET_BITS=64 -D_GNI_SOURCE
+%:%.c
+	gcc $< -o $@ $(CFLAGS)
