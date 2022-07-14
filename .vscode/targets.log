@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2014 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 13 19:00:47 2022
+# Make data base, printed on Thu Jul 14 11:36:52 2022
 
 # Variables
 
@@ -33,7 +31,7 @@ CURDIR := /home/lee/Linux-system-coding
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/lee/.vscode-server/data/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/lee/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /home/lee/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/node
 # makefile
@@ -49,7 +47,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/lee
 # environment
-SSH_CONNECTION = 192.168.0.109 7855 192.168.200.132 22
+SSH_CONNECTION = 192.168.0.109 14870 192.168.200.132 22
 # environment
 PATH = /home/lee/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
@@ -65,7 +63,7 @@ LS_COLORS =
 # environment
 PWD = /home/lee/Linux-system-coding
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-31b13a82-bf35-42c1-9fa5-e0fe86ba5c59.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-7231d6fc-2b10-4ec6-b215-ad5c6408ce18.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -93,7 +91,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 3
 # environment
-XDG_SESSION_ID = 2
+XDG_SESSION_ID = 3
 # environment
 USER = lee
 # makefile
@@ -102,8 +100,6 @@ USER = lee
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := make
-# environment
-OLDPWD = /home/lee/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # default
 .VARIABLES := 
 # automatic
@@ -115,7 +111,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.0.109 7855 22
+SSH_CLIENT = 192.168.0.109 14870 22
 # environment
 MAIL = /var/mail/lee
 # automatic
@@ -143,7 +139,7 @@ MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=65/1024=6%, Rehash=0, Collisions=8/87=9%
+# Load=64/1024=6%, Rehash=0, Collisions=8/86=9%
 
 # Pattern-specific Variable Values
 
@@ -151,9 +147,9 @@ LANG = C
 
 # Directories
 
-# . (device 2049, inode 917915): 5 files, no impossibilities.
+# . (device 2049, inode 917915): 7 files, no impossibilities.
 
-# 5 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -203,12 +199,14 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 13 / storage = 112 B / avg = 8 B
-# current buf: size = 8162 B / used = 112 B / count = 13 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 131 B / avg = 8 B
+# current buf: size = 8162 B / used = 131 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 16 / hit rate = 18%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=13/8192=0%, Rehash=0, Collisions=1/16=6%
-# Finished Make data base on Wed Jul 13 19:00:47 2022
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Thu Jul 14 11:36:52 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
