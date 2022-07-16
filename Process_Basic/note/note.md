@@ -40,5 +40,35 @@
 - execle()
 - execv()
 - execvp()
+## 用户权限和组权限
+- r
+- e
+- s
+- 文件属性u + s
+  - 拥有该文件user用户的权限
+- getuid()
+- geteuid()
+- getgid()
+- getegid()
+- setuid()
+  - 设置effective id
+- setgid()
+- setreuid()
+- setregid()
+- seteuid()
+- setegid()
 
-## myshell
+## 解释器文件
+- 脚本文件
+  - 装载可执行二进制程序
+  - 加载shell程序执行命令
+
+## system
+- execute a shell command
+- 约等于fork exec wait的封装
+
+## 进程会计
+- acct()
+
+## 进程时间
+- times()
