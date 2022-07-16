@@ -25,3 +25,20 @@
       - fflush(NULL)
   - 写时拷贝
 - vfork()
+
+
+## 进程的消亡及释放资源
+- wait()
+- waitpid()
+- waitid()
+- wait3()
+- wait4()
+
+## exec函数族
+- execl()
+- execlp()
+- execle()
+- execv()
+- execvp()
+
+## myshell
