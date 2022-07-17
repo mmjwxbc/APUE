@@ -1,0 +1,4 @@
+CFLAGS+=-D_FILE_OFFSET_BITS=64 -D_GNI_SOURCE -D_XOPEN_SOURCE
+LDFLAGS+=-lcrypt
+%:%.c
+	cc $< -o $@

@@ -72,3 +72,26 @@
 
 ## 进程时间
 - times()
+
+## 守护进程
+- 会话session
+  - 标识sid
+- 终端
+- 前台进程组
+  - 最多有一个
+- 后台进程组
+- setsid()
+  - 不能父进程调用
+- getpgid()
+  - 设置组id
+- getpgrp()
+
+## 系统日志
+- syslogd服务
+- openlog()
+- syslog()
+- closelog()
+- sudo tail /var/log/syslog
+- 单实例守护进程
+  - 锁文件 /var/run/name.pid
+  - 启动脚本文件 /etc/rc*
