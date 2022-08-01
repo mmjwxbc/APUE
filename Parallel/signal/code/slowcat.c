@@ -6,6 +6,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <signal.h>
+#include <sys/time.h>
 #define CPS 10
 #define BUFSIZE CPS
 
@@ -13,7 +14,6 @@ static volatile int loop = 0;
 
 static void alrm_handler()
 {
-    alarm(1);
     loop = 1;
 }
 
@@ -25,9 +25,13 @@ int main(int argc, char **argv)
         fprintf(stderr, "Usage...\n");
         exit(1);
     }
-
+    struct itimerval itv;
+    itv.it_interval.tv_sec = 1;
+    itv.it_interval.tv_usec = 0;
+    itv.it_value.tv_sec = 1;
+    itv.it_value.tv_usec = 1;
     signal(SIGALRM, alrm_handler);
-    alarm(1);
+    setitimer(ITIMER_REAL, &itv, NULL);
     int fdr;
     do{
         fdr = open(argv[1], O_RDONLY);
