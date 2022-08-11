@@ -129,3 +129,5 @@ int main(){
 - system()
 - sleep()
 - usleep()
+
+### 信号集
