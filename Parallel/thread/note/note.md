@@ -41,6 +41,11 @@
 ### 线程分离
 - pthread_detach()：分离后不能再操纵该线程
 ### 线程同步
+互斥量：
+- pthread_mutex_init()
+- pthread_mutex_destory()
+- pthread_mutex_lock() 死等状态                                              
+- pthread_mutex_unlock() 
 
 ### 线程属性、线程同步的属性
 

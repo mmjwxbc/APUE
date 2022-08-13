@@ -2,127 +2,70 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.1
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2014 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Thu Aug 11 20:37:34 2022
- 
+# Make data base, printed on Sat Aug 13 22:14:31 2022
 
 # Variables
- 
 
- 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
- 
 # automatic
- 
 ?F = $(notdir $?)
- 
 # default
- 
 .SHELLFLAGS := -c
- 
 # environment
- 
 VSCODE_AGENT_FOLDER = /home/lee/.vscode-server
- 
 # automatic
- 
 ?D = $(patsubst %/,%,$(dir $?))
- 
 # automatic
- 
 @D = $(patsubst %/,%,$(dir $@))
- 
 # automatic
- 
 @F = $(notdir $@)
- 
 # default
- 
 MAKE_VERSION := 4.1
- 
 # makefile
- 
 CURDIR := /home/lee/Linux-system-coding
- 
 # makefile
- 
 SHELL = /bin/sh
- 
 # environment
- 
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e1243840abbb4e31a890d397033a9abf.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/lee/.vscode-server/data/clp/e1243840abbb4e31a890d397033a9abf.zh-cn/corrupted.info","_languagePackSupport":true}
- 
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
- 
 _ = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
- 
 # makefile
- 
 MAKEFILE_LIST := 
- 
 # 'override' directive
- 
 GNUMAKEFLAGS := 
- 
 # environment
- 
 XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
- 
 # environment
- 
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
- 
 # environment
- 
 LESSOPEN = | /usr/bin/lesspipe %s
- 
 # environment
- 
 VSCODE_CWD = /home/lee
- 
 # environment
- 
-SSH_CONNECTION = 192.168.200.2 10896 192.168.200.132 22
- 
+SSH_CONNECTION = 192.168.200.2 2951 192.168.200.132 22
 # environment
- 
 PATH = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
- 
 # environment
- 
 XDG_RUNTIME_DIR = /run/user/1000
- 
 # environment
- 
 ELECTRON_RUN_AS_NODE = 1
- 
 # default
- 
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
- 
 # environment
- 
 LS_COLORS = 
 # automatic
 %F = $(notdir $%)
 # environment
 PWD = /home/lee/Linux-system-coding
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-1113a294-296a-45f5-bce0-e5139f2d9b60.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-d5767c28-613c-4f24-849b-c0ca8276e6b8.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -134,7 +77,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = lee
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 +F = $(notdir $+)
 # environment
@@ -150,7 +93,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 3
 # environment
-XDG_SESSION_ID = 4
+XDG_SESSION_ID = 2
 # environment
 USER = lee
 # makefile
@@ -170,7 +113,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.200.2 10896 22
+SSH_CLIENT = 192.168.200.2 2951 22
 # environment
 MAIL = /var/mail/lee
 # automatic
@@ -264,6 +207,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Thu Aug 11 20:37:34 2022
+# Finished Make data base on Sat Aug 13 22:14:31 2022
 
  
