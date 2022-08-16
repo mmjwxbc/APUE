@@ -46,7 +46,26 @@
 - pthread_mutex_destory()
 - pthread_mutex_lock() 死等状态                                              
 - pthread_mutex_unlock() 
+条件变量：
+- pthread_cond_init()
+- pthread_cond_destory()
+- pthread_cond_broadcast()
+- pthread_cond_signal()
 
-### 线程属性、线程同步的属性
+
+信号量 \
+读写锁：读锁->共享锁 写锁->互斥锁
+### 线程属性
+pthread_attr_t
+- pthread_attr_init()
+- pthread_attr_destory()
+
+- pthread_attr
+### 线程同步的属性
+互斥量属性：
+- pthread_mutexattr_init();
+- pthread_mutexattr_getpshared(); 跨进程使用
+- pthread_mutexattr_setpshared();
+- pthread_mutexattr_settype();
 
 ### 重入、线程和信号的关系、线程与fork

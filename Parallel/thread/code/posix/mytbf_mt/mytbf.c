@@ -22,14 +22,16 @@ struct mytbf_st
     int token;
     int pos;
     pthread_mutex_t mut;
+    pthread_cond_t cond;
 };
 
 static void* thr_alrm(void *p)
 {
     while(1)
     {
+        int i;
         pthread_mutex_lock(&mut_job);
-        for(int i = 0; i < MYTBF_MAX; i ++)
+        for(i = 0; i < MYTBF_MAX; i ++)
         {
             if(job[i] != NULL)
             {
@@ -40,6 +42,7 @@ static void* thr_alrm(void *p)
                 pthread_mutex_unlock(&job[i]->mut);
             }
         }
+        pthread_cond_broadcast(&job[i]->cond);
         pthread_mutex_unlock(&mut_job);
         sleep(1);
     }
@@ -101,6 +104,7 @@ mytbf_t* mytbf_init(int cps, int burst)
     me->cps = cps;
     me->burst = burst;
     pthread_mutex_init(&me->mut, NULL);
+    pthread_cond_init(&me->cond, NULL);
 
     pthread_mutex_lock(&mut_job);
     int pos = get_free_pos_unlocked();
@@ -130,9 +134,10 @@ int mytbf_fetchtoken(mytbf_t *ptr, int size)
     pthread_mutex_lock(&me->mut);
     while(me->token <= 0)
     {
-        pthread_mutex_unlock(&me->mut);
-        sched_yield();
-        pthread_mutex_lock(&me->mut);
+        pthread_cond_wait(&me->cond, &me->mut);
+        // pthread_mutex_unlock(&me->mut);
+        // sched_yield();
+        // pthread_mutex_lock(&me->mut);
     }
     int n = min(me->token, size);
     me->token -= n;
@@ -149,6 +154,7 @@ int mytbf_returntoken(mytbf_t *ptr, int size)
     me->token += size;
     if(me->token > me->burst)
         me->token = me->burst;
+    pthread_cond_broadcast(&me->cond);
     pthread_mutex_unlock(&me->mut);    
     return size;
 }
@@ -161,6 +167,7 @@ int mytbf_destory(mytbf_t *ptr)
     job[me->pos] = NULL;
     pthread_mutex_unlock(&mut_job);
     pthread_mutex_destroy(&me->mut);
+    pthread_cond_destroy(&me->cond);
     free(ptr);
     return 0;
 }
