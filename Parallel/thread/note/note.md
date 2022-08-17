@@ -68,4 +68,11 @@ pthread_attr_t
 - pthread_mutexattr_setpshared();
 - pthread_mutexattr_settype();
 
-### 重入、线程和信号的关系、线程与fork
+### 重入
+线程重入是指任意线程在获取到锁之后，再次获取该锁而不会被该锁锁阻塞 \
+要使用单线程的函数例如 getc_unlocked() 可以提高运行速率
+## 线程和信号的关系
+每个线程都有mash和pending位图
+- pthread_sigmask()
+- pthread_kill()
+
