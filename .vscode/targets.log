@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug 17 19:51:50 2022
+# Make data base, printed on Thu Aug 18 16:40:51 2022
 
 # Variables
 
@@ -33,7 +33,7 @@ CURDIR := /home/lee/Linux-system-coding
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/lee/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
 # makefile
@@ -49,7 +49,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/lee
 # environment
-SSH_CONNECTION = 192.168.200.2 10849 192.168.200.132 22
+SSH_CONNECTION = 192.168.200.2 9651 192.168.200.132 22
 # environment
 PATH = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
@@ -65,7 +65,7 @@ LS_COLORS =
 # environment
 PWD = /home/lee/Linux-system-coding
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-8ca5fc53-31fe-425a-a9d6-344bb0b589b5.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-36eae57e-50d0-40e3-8fd5-5b4a9a858f61.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -77,7 +77,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = lee
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 +F = $(notdir $+)
 # environment
@@ -113,7 +113,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.200.2 10849 22
+SSH_CLIENT = 192.168.200.2 9651 22
 # environment
 MAIL = /var/mail/lee
 # automatic
@@ -207,6 +207,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Wed Aug 17 19:51:50 2022
+# Finished Make data base on Thu Aug 18 16:40:51 2022
 
  
