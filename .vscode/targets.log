@@ -7,8 +7,9 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Thu Aug 18 16:40:51 2022
+# Make data base, printed on Sat Aug 20 16:25:46 2022
 
 # Variables
 
@@ -29,13 +30,13 @@ VSCODE_AGENT_FOLDER = /home/lee/.vscode-server
 # default
 MAKE_VERSION := 4.1
 # makefile
-CURDIR := /home/lee/Linux-system-coding
+CURDIR := /home/lee/APUE
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_translationsConfigFile":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/tcf.json","_cacheRoot":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"/home/lee/.vscode-server/data/clp/cc0490d1397af23dc5bf44a96fe15dbb.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
+_ = /home/lee/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -43,15 +44,16 @@ GNUMAKEFLAGS :=
 # environment
 XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
 # environment
+ 
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/lee
 # environment
-SSH_CONNECTION = 192.168.200.2 9651 192.168.200.132 22
+SSH_CONNECTION = 192.168.200.2 6353 192.168.200.132 22
 # environment
-PATH = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/lee/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -63,9 +65,9 @@ LS_COLORS =
 # automatic
 %F = $(notdir $%)
 # environment
-PWD = /home/lee/Linux-system-coding
+PWD = /home/lee/APUE
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-36eae57e-50d0-40e3-8fd5-5b4a9a858f61.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-3afe97d7-198d-4e67-b7e0-50390a4bdaf8.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -113,13 +115,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.200.2 9651 22
+SSH_CLIENT = 192.168.200.2 6353 22
 # environment
 MAIL = /var/mail/lee
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/lee/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh
+BROWSER = /home/lee/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
@@ -149,7 +151,7 @@ LANG = C
 
 # Directories
 
-# . (device 2049, inode 917915): 8 files, no impossibilities.
+# . (device 2049, inode 919851): 8 files, no impossibilities.
 
 # 8 files, no impossibilities in 1 directories.
 
@@ -207,6 +209,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Thu Aug 18 16:40:51 2022
+# Finished Make data base on Sat Aug 20 16:25:46 2022
 
  

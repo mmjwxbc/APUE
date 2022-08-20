@@ -13,3 +13,7 @@
 - writev()
 5.  存储映射IO
 - mmap()
+6.  文件锁
+- fcntl()
+- lockf()
+- flock()
