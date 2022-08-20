@@ -8,3 +8,8 @@
     - select() 以事件组成文件描述符
     - poll() 以文件描述符组成事件
     - epoll() 系统调用
+4.  其他读写函数
+- readv()
+- writev()
+5.  存储映射IO
+- mmap()
