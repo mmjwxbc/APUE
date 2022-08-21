@@ -7,6 +7,8 @@
         1.  文件类型为PIPE
         2.  mkfifo()
 2.  XSI -> SysV
+主动端：先发包的一方
+被动端：先收包的一方（先运行）
 - Messages Queues 消息队列
   - msgget()
   - msgsnd()
@@ -15,4 +17,4 @@
 - Semaphore Arrays 信号量数组
 - Shared Memory 共享内存段
 - ftok() 使用同一个key值掌握同一个机制
-3.  网络套接字socket
+1.  网络套接字socket
