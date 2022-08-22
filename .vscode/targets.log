@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 21 13:20:37 2022
+# Make data base, printed on Mon Aug 22 15:47:55 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/lee
 # environment
-SSH_CONNECTION = 192.168.200.2 2616 192.168.200.132 22
+SSH_CONNECTION = 192.168.200.2 1318 192.168.200.132 22
 # environment
 PATH = /home/lee/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
@@ -65,7 +65,7 @@ LS_COLORS =
 # environment
 PWD = /home/lee/APUE
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-7b798d46-381a-4811-84cf-18c05ede06d4.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-08c9903e-7c50-406a-ab87-a073ccaa49b6.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -113,7 +113,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.200.2 2616 22
+SSH_CLIENT = 192.168.200.2 1318 22
 # environment
 MAIL = /var/mail/lee
 # automatic
@@ -149,7 +149,7 @@ LANG = C
 
 # Directories
 
-# . (device 2049, inode 919851): 9 files, no impossibilities.
+# . (device 2049, inode 919852): 9 files, no impossibilities.
 
 # 9 files, no impossibilities in 1 directories.
 
@@ -207,6 +207,6 @@ GNUmakefile:
 # strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Sun Aug 21 13:20:37 2022
+# Finished Make data base on Mon Aug 22 15:47:55 2022
 
  

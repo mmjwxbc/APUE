@@ -15,6 +15,9 @@
   - msgrcv()
   - msgctl()
 - Semaphore Arrays 信号量数组
+  - semget()
+  - semctl()
 - Shared Memory 共享内存段
+  - shmget()
 - ftok() 使用同一个key值掌握同一个机制
 1.  网络套接字socket
