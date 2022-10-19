@@ -4,6 +4,8 @@
         "stdio.h": "c",
         "string.h": "c",
         "math.h": "c",
-        "ipc.h": "c"
+        "ipc.h": "c",
+        "types.h": "c",
+        "proto.h": "c"
     }
 }
