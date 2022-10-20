@@ -6,6 +6,8 @@
         "math.h": "c",
         "ipc.h": "c",
         "types.h": "c",
-        "proto.h": "c"
+        "proto.h": "c",
+        "in.h": "c",
+        "if.h": "c"
     }
 }

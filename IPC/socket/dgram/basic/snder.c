@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
         perror("socket()");
         exit(1);
     }
+    memset((void*) &sbuf, '\0', sizeof(sbuf));
     strcpy(sbuf.name, "Alan");
     sbuf.math = htonl(rand() % 100);
     sbuf.chinese = htonl(rand() % 100);
