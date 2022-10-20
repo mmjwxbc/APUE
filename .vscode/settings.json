@@ -8,6 +8,7 @@
         "types.h": "c",
         "proto.h": "c",
         "in.h": "c",
-        "if.h": "c"
+        "if.h": "c",
+        "unistd.h": "c"
     }
 }
